@@ -96,6 +96,7 @@
 		Each spec is represented by one module. "test-utils" is a helper module. -->
 	<modules>
 		<module>rest-client</module>
+        <module>open-api</module>
 		<module>test-utils</module>   
 	</modules>
 
