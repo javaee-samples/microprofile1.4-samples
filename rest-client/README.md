@@ -6,6 +6,7 @@
 ## Samples ##
 
  - **server-internal** Injects an internal JAX-RS resource as a type-safe service into another JAX-RS resource
+ - **server-internal-async** Variant of server-internal where the type-safe service has an async signature, while still connecting to same backend JAX-RS resource
 
    
 

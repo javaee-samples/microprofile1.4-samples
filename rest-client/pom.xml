@@ -16,6 +16,7 @@
 
     <modules>
         <module>server-internal</module>
+        <module>server-internal-async</module>
     </modules>
 
     <dependencies>
