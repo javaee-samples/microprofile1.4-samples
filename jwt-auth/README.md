@@ -1,4 +1,4 @@
-# Eclipse MicroProfile 1.2 Samples - JWT Auth 1.1
+# Eclipse MicroProfile 1.4 Samples - JWT Auth 1.1
 
  - [Wiki project page](https://wiki.eclipse.org/MicroProfile/JWT_Auth)
  - [Spec, API, TCK GitHub repo](https://github.com/eclipse/microprofile-jwt-auth)
