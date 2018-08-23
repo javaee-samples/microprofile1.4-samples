@@ -95,6 +95,7 @@
 	<!-- The MicroProfile 1.4 specs that this project is providing samples for. 
 		Each spec is represented by one module. "test-utils" is a helper module. -->
 	<modules>
+        <module>jwt-auth</module>
 		<module>rest-client</module>
         <module>open-api</module>
 		<module>test-utils</module>   
@@ -144,6 +145,7 @@
             <type>pom</type>
             <scope>provided</scope>
         </dependency>
+        
 
 		<!-- Test dependencies which can be used in sub-modules -->
 
