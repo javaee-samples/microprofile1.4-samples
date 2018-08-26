@@ -66,17 +66,17 @@
 			</snapshots>
 		</repository>
         
-        <repository>
-            <id>payara-milestones</id>
-            <name>Payara Milestones Eclipse</name>
-            <url>https://raw.github.com/payara/Payara_PatchedProjects/eclipse</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
+		<repository>
+			<id>payara-milestones-eclipse</id>
+			<name>Payara Milestones Eclipse</name>
+			<url>https://raw.github.com/payara/Payara_PatchedProjects/eclipse</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
 
 		<repository>
 			<id>ossrh</id>
