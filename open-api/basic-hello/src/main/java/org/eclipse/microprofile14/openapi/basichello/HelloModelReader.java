@@ -8,7 +8,7 @@ import org.eclipse.microprofile.openapi.models.OpenAPI;
 /**
  * Generates a base model to be used by the OpenAPI.
  */
-public class ModelReader implements OASModelReader {
+public class HelloModelReader implements OASModelReader {
 
     @Override
     public OpenAPI buildModel() {

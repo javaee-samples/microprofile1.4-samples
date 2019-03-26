@@ -1,12 +1,13 @@
 # A project defaults for use with MP-JWT auth-method
 # Based on https://github.com/MicroProfileJWT/wfswarm-jwt-auth-tck/blob/master/src/main/resources/project-defaults.yml
-swarm:
+thorntail:
   bind:
     address: localhost
   microprofile:
-    jwtauth:
+    jwt:
+      default-missing-method-permissions-deny-access: false    
       token:
-        issuedBy: "org.eclipse.microprofile12"
+        issued-by: "org.eclipse.microprofile12"
   logging:
     loggers:
       io.undertow.request.security:

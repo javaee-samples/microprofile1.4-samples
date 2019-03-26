@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URL;
 
-import org.apache.maven.model.io.ModelReader;
 import org.eclipse.microprofile14.openapi.basichello.ApplicationInit;
 import org.eclipse.microprofile14.openapi.basichello.HelloResource;
 import org.eclipse.microprofile14.openapi.basichello.OperationHyphenFilter;
@@ -18,6 +17,7 @@ import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.container.test.api.RunAsClient;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.arquillian.test.api.ArquillianResource;
+import org.jboss.shrinkwrap.api.asset.EmptyAsset;
 import org.jboss.shrinkwrap.api.spec.WebArchive;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -38,11 +38,11 @@ public class BasicHelloTest {
                 .addClasses(
                     ApplicationInit.class,
                     HelloResource.class,
-                    ModelReader.class,
+                    HelloModelReader.class,
                     OperationHyphenFilter.class
                 ).addAsResource(
                     "META-INF/microprofile-config.properties"
-                )
+                ).addAsWebInfResource(EmptyAsset.INSTANCE, "beans.xml")
                 ;
 
         System.out.println("************************************************************");
